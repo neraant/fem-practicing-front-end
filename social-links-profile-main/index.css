@@ -1,0 +1,92 @@
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.avatar-wrapper{
+    max-width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.avatar{
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .2s ease;
+    overflow: hidden;
+}
+.avatar:hover{
+    transform: scale(1.05);
+}
+
+.avatar-name{
+    font-weight: 700;
+    text-align: center;
+}
+
+.avatar-location{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+}
+
+.avatar-information{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.avatar-links-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.avatar-link{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+.avatar-link:hover{
+    background-color: hsl(0, 0%, 38%);
+}
+
+@media(max-width: 480px){
+    .container{
+        padding: 20px;
+    }
+}
