@@ -1,0 +1,233 @@
+body{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(187, 24%, 22%);
+}
+
+label{
+    font-size: 16px;
+}
+
+input, textarea{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid hsl(187, 24%, 22%);
+    padding: 10px 20px;
+}
+input:hover, textarea:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+}
+input:focus, textarea:focus{
+    outline: none;
+    border: 1px solid hsl(169, 82%, 27%);
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+/* custom checkbox(1) */
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.custom-checkbox + label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #c3c3c3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.custom-checkbox:checked + label::before {
+    border: 1px solid hsl(169, 82%, 27%);
+}
+.custom-checkbox + label::after {
+    content: '';
+    display: none;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background-color: hsl(169, 82%, 27%);
+    position: absolute;
+    left: 0.2em;
+    top: 0.47em;
+}
+.custom-checkbox:checked + label::after {
+    display: inline-block;
+} 
+.custom-checkbox:not(:disabled):not(:checked) + label:hover::before{
+    border: 1px solid hsl(169, 82%, 27%);
+}
+/* ------------------------------------------------------------- */
+
+/* custom checkbox(2) */
+.custom-checkbox-agreement {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-checkbox-agreement + label {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.custom-checkbox-agreement + label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #c3c3c3;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.custom-checkbox-agreement:checked + label::before {
+    border: 1px solid hsl(169, 82%, 27%);
+    background-image: url(/assets/images/icon-checkbox-check.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-checkbox-agreement:not(:disabled):not(:checked) + label:hover::before{
+    border: 1px solid hsl(169, 82%, 27%);
+}
+/* ------------------------------------------------------------- */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 720px;
+}
+
+form{
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form-title{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.names-container{
+    display: flex;
+    gap: 10px;
+}
+
+.first-name-container,
+.last-name-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name-input{
+    width: 100%;
+}
+
+.names-container label{
+    padding-bottom: 10px;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-container label{
+    padding-bottom: 10px;
+}
+
+.queries-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.query-title{
+    padding-bottom: 10px;
+}
+
+.queries-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.query-wrapper{
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid hsl(187, 24%, 22%);
+    gap: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.query-wrapper:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+}
+
+.query-wrapper.checked{
+    border: 1px solid hsl(169, 82%, 27%);
+    background-color: hsl(148, 38%, 91%);
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.message-container label{
+    padding-bottom: 10px;
+}
+
+.agreement-container{
+    padding: 0px 0 20px 0;
+}
+
+.send-button{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.send-button:hover{
+    background-color: hsl(169, 75%, 14%);
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
