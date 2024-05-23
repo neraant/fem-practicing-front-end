@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<products>
+    <product>
+        <id>1</id>
+        <product-image>images/speshi-lubit.png</product-image>
+        <product-name>Спеши любить</product-name>
+        <product-author>Николас Спаркс</product-author>
+        <product-cost>14 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2010</year>
+        <pages>120</pages>
+        <binding>Твердый переплет</binding>
+        <age>16+</age>
+        <binding>Мягкий переплет</binding>
+        <author>Николас Спаркс</author>
+        <publishing>Бомбора</publishing>
+        <cost>14</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>2</id>
+        <product-image>images/ponedelnik.png</product-image>
+        <product-name>Понедельник начинается в субботу</product-name>
+        <product-author>Братья Стругацкие</product-author>
+        <product-cost>23 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2003</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Братья Стругацкие</author>
+        <publishing>Бомбора</publishing>
+        <cost>23</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>3</id>
+        <product-image>images/istochnik.png</product-image>
+        <product-name>Источник</product-name>
+        <product-author>Коновалов С.С.</product-author>
+        <product-cost>35 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Коновалов С.С.</binding>
+        <author>Сергей Гришин</author>
+        <publishing>Бомбора</publishing>
+        <cost>35</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+
+    <product>
+        <id>4</id>
+        <product-image>images/s-toboy-doma.png</product-image>
+        <product-name>С тобой я дома</product-name>
+        <product-author>Примаченко О.В.</product-author>
+        <product-cost>30 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2024</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Примаченко О.В.</author>
+        <publishing>Бомбора</publishing>
+        <cost>30</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>5</id>
+        <product-image>images/tri-tovarisha.png</product-image>
+        <product-name>Три товарища</product-name>
+        <product-author>Ремарк Э.М.</product-author>
+        <product-cost>16 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2023</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Ремарк Э.М.</author>
+        <publishing>Бомбора</publishing>
+        <cost>16</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>6</id>
+        <product-image>images/naslednica.png</product-image>
+        <product-name>Наследница чёрного дракона</product-name>
+        <product-author>Анна Джейн</product-author>
+        <product-cost>22 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Анна Джейн</author>
+        <publishing>Бомбора</publishing>
+        <cost>22</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+
+    <product>
+        <id>7</id>
+        <product-image>images/speshi-lubit.png</product-image>
+        <product-name>Спеши любить</product-name>
+        <product-author>Николас Спаркс</product-author>
+        <product-cost>14 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2010</year>
+        <pages>120</pages>
+        <binding>Твердый переплет</binding>
+        <age>16+</age>
+        <binding>Мягкий переплет</binding>
+        <author>Николас Спаркс</author>
+        <publishing>Бомбора</publishing>
+        <cost>14</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>8</id>
+        <product-image>images/ponedelnik.png</product-image>
+        <product-name>Понедельник начинается в субботу</product-name>
+        <product-author>Братья Стругацкие</product-author>
+        <product-cost>23 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2003</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Братья Стругацкие</author>
+        <publishing>Бомбора</publishing>
+        <cost>23</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>9</id>
+        <product-image>images/istochnik.png</product-image>
+        <product-name>Источник</product-name>
+        <product-author>Коновалов С.С.</product-author>
+        <product-cost>35 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Коновалов С.С.</binding>
+        <author>Сергей Гришин</author>
+        <publishing>Бомбора</publishing>
+        <cost>35</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+
+    <product>
+        <id>10</id>
+        <product-image>images/s-toboy-doma.png</product-image>
+        <product-name>С тобой я дома</product-name>
+        <product-author>Примаченко О.В.</product-author>
+        <product-cost>30 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2024</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Примаченко О.В.</author>
+        <publishing>Бомбора</publishing>
+        <cost>30</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>11</id>
+        <product-image>images/tri-tovarisha.png</product-image>
+        <product-name>Три товарища</product-name>
+        <product-author>Ремарк Э.М.</product-author>
+        <product-cost>16 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2023</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Ремарк Э.М.</author>
+        <publishing>Бомбора</publishing>
+        <cost>16</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>12</id>
+        <product-image>images/naslednica.png</product-image>
+        <product-name>Наследница чёрного дракона</product-name>
+        <product-author>Анна Джейн</product-author>
+        <product-cost>22 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Анна Джейн</author>
+        <publishing>Бомбора</publishing>
+        <cost>22</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+
+    <product>
+        <id>13</id>
+        <product-image>images/speshi-lubit.png</product-image>
+        <product-name>Спеши любить</product-name>
+        <product-author>Николас Спаркс</product-author>
+        <product-cost>14 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2010</year>
+        <pages>120</pages>
+        <binding>Твердый переплет</binding>
+        <age>16+</age>
+        <binding>Мягкий переплет</binding>
+        <author>Николас Спаркс</author>
+        <publishing>Бомбора</publishing>
+        <cost>14</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>14</id>
+        <product-image>images/ponedelnik.png</product-image>
+        <product-name>Понедельник начинается в субботу</product-name>
+        <product-author>Братья Стругацкие</product-author>
+        <product-cost>23 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2003</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Братья Стругацкие</author>
+        <publishing>Бомбора</publishing>
+        <cost>23</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>15</id>
+        <product-image>images/istochnik.png</product-image>
+        <product-name>Источник</product-name>
+        <product-author>Коновалов С.С.</product-author>
+        <product-cost>35 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Коновалов С.С.</binding>
+        <author>Сергей Гришин</author>
+        <publishing>Бомбора</publishing>
+        <cost>35</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+
+    <product>
+        <id>16</id>
+        <product-image>images/s-toboy-doma.png</product-image>
+        <product-name>С тобой я дома</product-name>
+        <product-author>Примаченко О.В.</product-author>
+        <product-cost>30 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Художественная литература</filter>
+
+        <year>2024</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Примаченко О.В.</author>
+        <publishing>Бомбора</publishing>
+        <cost>30</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>17</id>
+        <product-image>images/tri-tovarisha.png</product-image>
+        <product-name>Три товарища</product-name>
+        <product-author>Ремарк Э.М.</product-author>
+        <product-cost>16 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Нехудожественная литература</filter>
+
+        <year>2023</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Ремарк Э.М.</author>
+        <publishing>Бомбора</publishing>
+        <cost>16</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+    <product>
+        <id>18</id>
+        <product-image>images/naslednica.png</product-image>
+        <product-name>Наследница чёрного дракона</product-name>
+        <product-author>Анна Джейн</product-author>
+        <product-cost>22 руб</product-cost>
+        <product-button>Купить</product-button>
+        <filter>Фэнтези и фантастика</filter>
+
+        <year>2022</year>
+        <pages>224</pages>
+        <binding>Твердый переплет</binding>
+        <age>18+</age>
+        <binding>Твердый переплет</binding>
+        <author>Анна Джейн</author>
+        <publishing>Бомбора</publishing>
+        <cost>22</cost>
+
+        <book-description>
+            Так нам диктует система, которая хочет держать в повиновении средний класс. Мы убеждаем себя в том, что деньги не главное, живя от зарплаты до зарплаты, выплачивая неподъемную ипотеку и завидуя тем, кто ездит на Porsche. Ведь главное – быть хорошим. Но если вы хотите добиться большего, придется учиться быть плохими и не испытывать чувство вины из-за этого.
+        </book-description>
+        <author-description>
+            Сергей Гришин – один из основателей и член совета директоров инвестиционной компании Freedom Finance, совладелец лизинговой компании Capital Leasing Group, серийный предприниматель и инвестор. Из книги вы узнаете, как перестать обслуживать чужое мнение и добиться финансового благополучия.
+        </author-description>
+    </product>
+</products>

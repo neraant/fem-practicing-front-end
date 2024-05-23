@@ -10,6 +10,9 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
   background-color: #005500;
 }
 header .header-inner {
@@ -51,6 +54,9 @@ header .menu-list-item-link:hover {
   color: #005500;
 }
 
+main {
+  padding-top: 80px;
+}
 main .main-top {
   position: relative;
   background-color: #E8E0CF;
@@ -93,11 +99,13 @@ main .newseller .slider-item, main .comming-soon .slider-item {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  height: 320px;
 }
 main .newseller .slider-item-image, main .comming-soon .slider-item-image {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  max-width: 120px;
 }
 main .newseller .book-title, main .comming-soon .book-title {
   margin-top: 18px;
@@ -124,7 +132,7 @@ main .newseller .book-information, main .comming-soon .book-information {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 12px;
+  margin-top: auto;
 }
 main .garanties {
   display: flex;
@@ -173,6 +181,10 @@ footer .logo {
 }
 footer .logo:hover {
   transform: translateY(-2px);
+}
+footer .logo-link {
+  color: #fff;
+  display: flex;
 }
 footer .logo-image {
   -o-object-fit: contain;
@@ -302,9 +314,6 @@ footer #image3 {
     gap: 30px;
     justify-content: center;
     align-items: center;
-  }
-  footer .logo {
-    transform: translateX(-20px);
   }
   footer .social-block {
     justify-content: center;

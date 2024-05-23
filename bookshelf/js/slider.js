@@ -7,6 +7,9 @@ $(document).ready(function(){
         easing: 'ease',
         touchThreshold: 10,
         waitForAnimate: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        easing: 'ease',
         responsive: [
             {
                 breakpoint: 760,

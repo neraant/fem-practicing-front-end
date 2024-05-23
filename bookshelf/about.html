@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshlef</title>
+
+    <!-- Fonts -->
+    <!-- 1. Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo-link">
+                    <div class="logo">
+                        <img src="/images/Buecher-coloured 1.png" alt="logo-image" class="logo-image">
+                        <span class="logo-text">Bookshelf</span>
+                    </div>
+                </a>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="catalog.html" class="menu-list-item-link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="order.html" class="menu-list-item-link">
+                                Оплата и Доставка
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="about.html" class="menu-list-item-link">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+                      <li><a class="menu__item" href="order.html">Оплата и Доставка</a></li>
+                      <li><a class="menu__item" href="about.html"> О нас</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="about-info">
+                <div class="about-info-inner">
+                    <h1 class="about-info-title">О нас</h1>
+                    <p class="about-info-text">Добро пожаловать в Bookshelf — ваш уютный книжный магазин! Мы — команда книголюбов, которые разделяют вашу страсть к чтению. В нашем магазине вы найдете богатый выбор книг для всех возрастов и вкусов.</p>
+                    <h1 class="about-info-title">Контакты</h1>
+                   <div class="subtext-container">
+                    <p class="subtext">+375 (44) 457-98-2</p>
+                    <p class="subtext">bookshelfby@gmail.com</p>
+                    <p class="subtext">г. Минск, ул. Бельского, д. 47, 9-й этаж</p>
+                   </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="/images/Buecher-coloured 1.png" alt="logo-image" class="logo-image">
+                        <div class="logo-text-inner">
+                            <span class="logo-text">Bookshelf</span>
+                            <span class="logo-subtext">книжный интернет-магазин</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="catalog.html" class="menu-list-item-link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="order.html" class="menu-list-item-link">
+                                Оплата и Доставка
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="about.html" class="menu-list-item-link">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <div class="social-block">
+                        <img id="image1" class="social-image" src="images/phone-symbol.png" alt="">
+                        <p class="social-text">+375 (44) 457-98-20</p>
+                    </div>
+                    <div class="social-block">
+                        <img id="image2" class="social-image" src="images/mail-symbol.png" alt="">
+                        <p class="social-text">bookshelfby@gmail.com</p>
+                    </div>
+                    <div class="social-block">
+                        <img id="image3" class="social-image" src="images/location-symbol.png" alt="">
+                        <p class="social-text">г. Минск, ул. Бельского, д. 47, 9-й этаж</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>

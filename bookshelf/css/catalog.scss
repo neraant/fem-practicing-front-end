@@ -1,0 +1,264 @@
+main{
+    .products{
+        position: relative;
+        padding: 50px 0;
+        button{
+            color: #022908;
+            transition: all .2s ease;
+            padding: 10px 30px;
+            background-color: #E8E0CF;
+            max-width: 250px;
+            font-size: 20px;
+            min-height: 60px;
+            box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+            -webkit-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+            -moz-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+            &:hover{
+                box-shadow: 5px 6px 24px -4px rgba(0,0,0,0.49);
+                -webkit-box-shadow: 5px 6px 24px -4px rgba(0,0,0,0.49);
+                -moz-box-shadow: 5px 6px 24px -4px rgba(0,0,0,0.49);
+                transform: translateY(-2px);
+            }
+            &:active{
+                transform: translateY(2px);
+                box-shadow: none;
+            }
+        }
+        .filter-button.active {
+            transform: translateY(2px);
+            box-shadow: none;
+        }
+        .products-top{
+            display: flex;
+            align-items: center;
+        }
+        .filter-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+        }
+        .catalog-title{
+            font-size: 33px;
+            color: #022908;
+            margin-left: auto;
+        }
+        .products-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 80px 12.5%;
+            margin-top: 50px;
+            .product{
+                cursor: pointer;
+                background-color: #E8E0CF;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+                width: 300px;
+                height: 320px;
+                transition: all .2s ease;
+                box-shadow: 1px 1px 14px -6px rgba(0,0,0,0.49);
+                -webkit-box-shadow: 1px 1px 14px -6px rgba(0,0,0,0.49);
+                -moz-box-shadow: 1px 1px 14px -6px rgba(0,0,0,0.49);
+                &:hover{
+                    box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+                    -webkit-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+                    -moz-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.49);
+                }
+                &:active{
+                    box-shadow: none;
+                }
+                .product-link{
+                    text-align: center;
+                }
+            }
+            .product-image{
+                user-select: none;
+            }
+            .book-title{
+                margin-top: 18px;
+                text-align: center;
+            }
+            .book-author{
+                color: #4B4B4B;
+            }
+            .book-cost{
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .book-order-button{
+                padding: 5px 25px;
+                background-color: #DCB55F;
+                transition: all .1s ease;
+                &:hover{
+                    background-color: #9a7e43;
+                    transform: translateY(-2px);
+                }
+            }
+            .book-information{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin-top: auto;
+            }
+        }   
+    }
+}
+
+@media(max-width: 960px){
+    main{
+        .products{
+            
+            button{
+               font-size: 15px;
+               max-width: 150px;
+               padding: 0;
+            }
+            .products-top{
+
+            }
+            .filter-container{
+                gap: 15px;
+            }
+            .catalog-title{
+                font-size: 30px;
+            }
+            .products-container{
+                gap: 60px 50px;
+                .product{
+                    max-width: 230px;
+                    padding: 20px;
+                    .product-link{
+                    }
+                }
+                .product-image{
+
+                }
+                .book-title{
+
+                }
+                .book-author{
+
+                }
+                .book-cost{
+                    font-size: 25px;
+                }
+
+                .book-order-button{
+                    font-size: 18px;
+                    padding: 5px 10px;
+                }
+                .book-information{
+
+                }
+            }   
+        }
+    }
+}
+
+@media(max-width: 660px){
+    main{
+        .products{
+            
+            button{
+                font-size: 27px;
+                text-align: center;
+                max-width: 100%;
+                width: 100%;
+                padding: 15px 0px;
+            }
+            .products-top{
+                flex-direction: column;
+            }
+            .filter-container{
+                flex-direction: column;
+                gap: 35px;
+                margin-top: 35px;
+                width: 100%;
+            }
+            .catalog-title{
+                order: -1;
+                font-size: 32px;
+            }
+            .products-container{
+
+                .product{
+
+                    .product-link{
+                    }
+                }
+                .product-image{
+
+                }
+                .book-title{
+
+                }
+                .book-author{
+
+                }
+                .book-cost{
+
+                }
+
+                .book-order-button{
+
+                }
+                .book-information{
+
+                }
+            }   
+        }
+    }
+}
+
+@media(max-width: 550px){
+    main{
+        .products{
+            
+            button{
+                
+            }
+            .products-top{
+                
+            }
+            .filter-container{
+                
+            }
+            .catalog-title{
+                
+            }
+            .products-container{
+
+                .product{
+                    max-width: 100%;
+                    width: 100%;
+                    .product-link{
+                    }
+                }
+                .product-image{
+
+                }
+                .book-title{
+                    max-width: 220px;
+                }
+                .book-author{
+
+                }
+                .book-cost{
+
+                }
+
+                .book-order-button{
+
+                }
+                .book-information{
+                    justify-content: center;
+                    gap: 50px;
+                }
+            }   
+        }
+    }
+}

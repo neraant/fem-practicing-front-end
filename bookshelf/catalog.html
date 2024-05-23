@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshlef</title>
+
+    <!-- Fonts -->
+    <!-- 1. Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/catalog.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo-link">
+                    <div class="logo">
+                        <img src="/images/Buecher-coloured 1.png" alt="logo-image" class="logo-image">
+                        <span class="logo-text">Bookshelf</span>
+                    </div>
+                </a>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="catalog.html" class="menu-list-item-link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="order.html" class="menu-list-item-link">
+                                Оплата и Доставка
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="about.html" class="menu-list-item-link">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+                      <li><a class="menu__item" href="order.html">Оплата и Доставка</a></li>
+                      <li><a class="menu__item" href="about.html"> О нас</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="products">
+                <div class="products-top">
+                    <div class="filter-container">
+                        <button class="filter-button">Художественная литература</button>
+                        <button class="filter-button">Нехудожественная литература</button>
+                        <button class="filter-button">Фэнтези и фантастика</button>
+                    </div>
+                    <h1 class="catalog-title">Каталог</h1>
+                </div>
+                <div class="products-container">
+                    <!-- Products -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="/images/Buecher-coloured 1.png" alt="logo-image" class="logo-image">
+                        <div class="logo-text-inner">
+                            <span class="logo-text">Bookshelf</span>
+                            <span class="logo-subtext">книжный интернет-магазин</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="catalog.html" class="menu-list-item-link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="order.html" class="menu-list-item-link">
+                                Оплата и Доставка
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="about.html" class="menu-list-item-link">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <div class="social-block">
+                        <img id="image1" class="social-image" src="images/phone-symbol.png" alt="">
+                        <p class="social-text">+375 (44) 457-98-20</p>
+                    </div>
+                    <div class="social-block">
+                        <img id="image2" class="social-image" src="images/mail-symbol.png" alt="">
+                        <p class="social-text">bookshelfby@gmail.com</p>
+                    </div>
+                    <div class="social-block">
+                        <img id="image3" class="social-image" src="images/location-symbol.png" alt="">
+                        <p class="social-text">г. Минск, ул. Бельского, д. 47, 9-й этаж</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/catalog.js"></script>
+</body>
+</html>
