@@ -231,3 +231,58 @@ form{
     flex-direction: column;
     gap: 20px;
 }
+
+.error-message{
+    display: none;
+    font-size: 14px;
+    color: hsl(0, 66%, 56%);
+}
+
+input._error,
+textarea._error{
+    border: 1px solid hsl(0, 66%, 56%);
+}
+
+.success-modal-window{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 20px;
+    transform: translateY(-150%);
+    background-color: hsl(187, 24%, 22%);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    transition: transform .4s ease;
+    user-select: none;
+}
+.success-title-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.success-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.success-text{
+    font-size: 12px;
+    font-weight: 300;
+}
+.success-modal-window.sended{
+    transform: translateY(0%);
+}
+
+@media(max-width: 480px){
+    textarea{
+        min-height: 15em;
+    }
+    .container{
+        max-width: 370px;
+    }
+    .queries-wrapper{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
