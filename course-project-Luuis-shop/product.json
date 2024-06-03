@@ -1,0 +1,337 @@
+[
+    {
+        "id": 1,
+        "name": "White down jacket",
+        "price": 2200,
+        "image": "images/Collections-page/product1.jpg",
+        "type": "Jacket"
+    },
+
+    {
+        "id": 2,
+        "name": "Jacket brown glossy",
+        "price": 3500,
+        "image": "images/Collections-page/product2.jpg",
+        "type": "Jacket"
+    },
+
+    {
+        "id": 3,
+        "name": "Blue fleece jacket",
+        "price": 1900,
+        "image": "images/Collections-page/product3.jpg",
+        "type": "Jacket"
+    },
+
+    {
+        "id": 4,
+        "name": "White baggy shorts",
+        "price": 900,
+        "image": "images/Collections-page/product4.jpg",
+        "type": "Shorts"
+    },
+
+    {
+        "id": 5,
+        "name": "Shorts black glossy",
+        "price": 1100,
+        "image": "images/Collections-page/product5.jpg",
+        "type": "Shorts"
+    },
+
+    {
+        "id": 6,
+        "name": "Coral bologna shorts",
+        "price": 1500,
+        "image": "images/Collections-page/product6.jpg",
+        "type": "Shorts"
+    },
+
+    {
+        "id": 7,
+        "name": "White baggy sneakers",
+        "price": 2700,
+        "image": "images/Collections-page/product7.jpg",
+        "type": "Sneakers"
+    },
+
+    {
+        "id": 8,
+        "name": "Boots black glossy",
+        "price": 3000,
+        "image": "images/Collections-page/product8.jpg",
+        "type": "Sneakers"
+    },
+
+    {
+        "id": 9,
+        "name": "Bologna wading boots",
+        "price": 2300,
+        "image": "images/Collections-page/product9.jpg",
+        "type": "Sneakers"
+    },
+
+    {
+        "id": 10,
+        "name": "White baggy T-shirt",
+        "price": 9000,
+        "image": "images/Collections-page/product10.jpg",
+        "type": "T-shirt"
+    },
+
+    {
+        "id": 11,
+        "name": "T-shirt black glossy",
+        "price": 1100,
+        "image": "images/Collections-page/product11.jpg",
+        "type": "T-shirt"
+    },
+
+    {
+        "id": 12,
+        "name": "Bologna wading T-shirt",
+        "price": 7000,
+        "image": "images/Collections-page/product12.jpg",
+        "type": "T-shirt"
+    },
+
+    {
+        "id": 13,
+        "name": "Burgundy cargo bag",
+        "price": 1020,
+        "image": "images/For-her-images/product1.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 14,
+        "name": "Burgundy swoosh cargo bag",
+        "price": 900,
+        "image": "images/For-her-images/product2.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 15,
+        "name": "Burgundy baggi cargo bag",
+        "price": 890,
+        "image": "images/For-her-images/product3.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 16,
+        "name": "Swamp swoosh cargo bag",
+        "price": 780,
+        "image": "images/For-her-images/product4.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 17,
+        "name": "Sunny-swamp bag",
+        "price": 900,
+        "image": "images/For-her-images/product5.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 18,
+        "name": "Oceanic baggy bag",
+        "price": 1100,
+        "image": "images/For-her-images/product6.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 19,
+        "name": "Light-blue cargo bag",
+        "price": 1000,
+        "image": "images/For-her-images/product7.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 20,
+        "name": "Light-flowers bag",
+        "price": 1300,
+        "image": "images/For-her-images/product8.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 21,
+        "name": "Light-blue bag",
+        "price": 920,
+        "image": "images/For-her-images/product9.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 22,
+        "name": "Aquamarine ocean bag",
+        "price": 2500,
+        "image": "images/For-her-images/product10.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 23,
+        "name": "Blue swoosh bag",
+        "price": 1050,
+        "image": "images/For-her-images/product11.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 24,
+        "name": "Casual light-blue bag",
+        "price": 990,
+        "image": "images/For-her-images/product12.jpg",
+        "type": "Bag"
+    },
+
+    {
+        "id": 25,
+        "name": "Burgundy dress",
+        "price": 850,
+        "image": "images/For-her-images/product13.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 26,
+        "name": "Burgundy warm dress",
+        "price": 730,
+        "image": "images/For-her-images/product14.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 27,
+        "name": "Japanese burgundy dress",
+        "price": 1690,
+        "image": "images/For-her-images/product15.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 28,
+        "name": "Light-spring dress",
+        "price": 1550,
+        "image": "images/For-her-images/product16.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 29,
+        "name": "Freeze princess dress",
+        "price": 1100,
+        "image": "images/For-her-images/product17.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 30,
+        "name": "Casual light-blue dress",
+        "price": 2000,
+        "image": "images/For-her-images/product18.jpg",
+        "type": "Dress"
+    },
+
+    {
+        "id": 31,
+        "name": "White sweater",
+        "price": 320,
+        "image": "images/For-him-images/product1.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 32,
+        "name": "White baggy sweater",
+        "price": 300,
+        "image": "images/For-him-images/product2.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 33,
+        "name": "Cream-white sweater",
+        "price": 490,
+        "image": "images/For-him-images/product3.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 34,
+        "name": "Dark-green sweater",
+        "price": 290,
+        "image": "images/For-him-images/product4.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 35,
+        "name": "Swamp fleece sweater",
+        "price": 950,
+        "image": "images/For-him-images/product5.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 36,
+        "name": "Casual green sweater",
+        "price": 550,
+        "image": "images/For-him-images/product6.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 37,
+        "name": "Casual blue sweater",
+        "price": 590,
+        "image": "images/For-him-images/product7.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 38,
+        "name": "Laguna sweater",
+        "price": 900,
+        "image": "images/For-him-images/product8.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 39,
+        "name": "Light-blue sweater",
+        "price": 450,
+        "image": "images/For-him-images/product9.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 40,
+        "name": "Light-pink sweater",
+        "price": 270,
+        "image": "images/For-him-images/product10.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 41,
+        "name": "Pink swoosh sweater",
+        "price": 1050,
+        "image": "images/For-him-images/product11.jpg",
+        "type": "Sweater"
+    },
+
+    {
+        "id": 42,
+        "name": "Casual light-pink sweater",
+        "price": 430,
+        "image": "images/For-him-images/product12.jpg",
+        "type": "Sweater"
+    }
+]

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <title>Luuis</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/for-her.css">
+    <link rel="stylesheet" href="style/product-slider.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/cart.css">
+    <link rel="stylesheet" href="style/null.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="logo">
+                    <h1 class="logo-text">
+                        <a href="index.html" class="logo-text__link">
+                            Luuis
+                        </a>
+                    </h1>
+                </div>
+
+                <div class="user-active">
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list__item">
+                                <a class="menu__list__item__link" href="index.html">Home</a>
+                            </li>
+                            
+                            <li class="menu__list__item menu__list__item__link submenu__btn">
+                                Products
+                                <ul class="menu__sublist">
+                                    <li class="menu__sublist__item">
+                                        <div class="menu__sublist__item__content">
+                                            <a href="collection-page.html" class="menu__sublist__item__link">
+                                                Collections
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="menu__sublist__item">
+                                        <div class="menu__sublist__item__content">
+                                            <a href="for-her-page.html" class="menu__sublist__item__link">
+                                                For her
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="menu__sublist__item">
+                                        <div class="menu__sublist__item__content">
+                                            <a href="for-him-page.html" class="menu__sublist__item__link">
+                                                For him
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__list__item">
+                                <a class="menu__list__item__link" href="about-page.html">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart">
+                        <svg class="cart__icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.25 3.66666H1.83334V5.49999H3.94168L6.94834 13.75C7.13746 14.2849 7.48741 14.7482 7.9502 15.0765C8.41299 15.4047 8.96598 15.5817 9.53334 15.5833H17.4167V13.75H9.53334C9.34496 13.7499 9.16117 13.6918 9.00699 13.5835C8.85281 13.4753 8.73573 13.3222 8.67168 13.145L8.25001 11.9167H16.7567C17.1545 11.9161 17.5414 11.7861 17.8589 11.5463C18.1764 11.3066 18.4073 10.97 18.5167 10.5875L20.1667 4.83082C20.2039 4.71045 20.216 4.58369 20.2021 4.45845C20.1881 4.33321 20.1485 4.21219 20.0857 4.10294C20.0229 3.9937 19.9383 3.89857 19.8371 3.8235C19.7359 3.74844 19.6203 3.69504 19.4975 3.66666C19.4156 3.65331 19.332 3.65331 19.25 3.66666ZM16.7292 10.0833H7.56251L5.89418 5.49999H18.0308L16.7292 10.0833Z" fill="#2E3F62"/>
+                            <path d="M9.625 19.25C10.3844 19.25 11 18.6344 11 17.875C11 17.1156 10.3844 16.5 9.625 16.5C8.86561 16.5 8.25 17.1156 8.25 17.875C8.25 18.6344 8.86561 19.25 9.625 19.25Z" fill="#2E3F62"/>
+                            <path d="M15.125 19.25C15.8844 19.25 16.5 18.6344 16.5 17.875C16.5 17.1156 15.8844 16.5 15.125 16.5C14.3656 16.5 13.75 17.1156 13.75 17.875C13.75 18.6344 14.3656 19.25 15.125 19.25Z" fill="#2E3F62"/>
+                        </svg>
+                        <span class="products__quantity">
+                            0
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hamburger">
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <ul class="mobile__nav">
+            <li class="mobile__nav__item">
+                <a href="index.html" class="mobile__nav__link">Home</a>
+            </li>
+            <li class="mobile__nav__item">
+                <a href="collection-page.html" class="mobile__nav__link">Collections</a>
+            </li>
+            <li class="mobile__nav__item">
+                <a href="for-her-page.html" class="mobile__nav__link">For her</a>
+            </li>
+            <li class="mobile__nav__item">
+                <a href="for-him-page.html" class="mobile__nav__link">For him</a>
+            </li>
+            <li class="mobile__nav__item">
+                <a href="about-page.html" class="mobile__nav__link">About Us</a>
+            </li>
+        </ul>
+
+    </header>
+
+    <main class="main">
+        <div class="product-slider">
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product1.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product2.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product3.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product4.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product5.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product6.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product7.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product8.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product9.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product10.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product11.jpg" alt="" class="product__slider__image">
+            </div>
+            <div class="product__slider__item">
+                <img data-lazy="images/Collections-page/product12.jpg" alt="" class="product__slider__image">
+            </div>
+        </div>
+
+        <!-- Фильтрация товаров -->
+        <div class="container">
+            <div class="filter">
+                <div class="filter__inner">
+                    <button class="filter__button">
+                        Jacket
+                    </button>
+                </div>
+                <div class="filter__inner">
+                    <button class="filter__button">
+                        Shorts
+                    </button>
+                </div>
+                <div class="filter__inner">
+                    <button class="filter__button">
+                        Sneakers
+                    </button>
+                </div>
+                <div class="filter__inner">
+                    <button class="filter__button">
+                        T-shirt
+                    </button>
+                </div>
+                <span class="close__filter">&times;</span>
+            </div>
+        </div>
+
+        <!-- Товар для добавление в корзину -->
+        <div class="product__container">
+            <div class="product__inner" data-id="1">
+                <!-- Изображение товара -->
+                <div class="product__description">
+                    <div class="prodcut__information">
+                        <div class="product name">
+                            <!-- Наименование товара -->
+                        </div>  
+                        <div class="product__cost">
+                            <!-- Цена товара -->
+                        </div>
+                    </div>                       
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Меню корзины -->
+        <section class="cartTab">
+            <h2 class="cart__title">Shopping Cart</h2>
+            
+            <div class="listCart">
+            </div>
+
+            <!-- Форма для оформления заказа -->
+            <form action="order-require" class="order__block">
+                <div class="form">
+                    <input type="email" class="form__email" placeholder="Enter your email address" required/>
+                </div>
+                <div class="notice">
+                    <input class="check" type="checkbox" required>
+                    <span class="notice__copy">I agree to my email address being stored and uses to recieve monthly newsletter.</span>
+                </div>
+                <div class="btn">
+                    <button class="close">
+                        Close
+                    </button>
+                    <button class="order" id="myBtn">
+                        Order
+                    </button>
+                </div>
+            </form>
+    
+            <!-- Модальные окна после оформления заказа -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close__modal">&times;</span>
+                  <p class="modal__text">Your order has been successfully completed!</p>
+                  <span class="success">&#x2713;</span>
+                </div>
+            </div>
+            <div id="myRejectModal" class="reject__modal">
+                <div class="modal-content">
+                  <span class="close__modal">&times;</span>
+                  <p class="modal__reject__text">There are no products in your cart!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="info__block">
+                    <div class="subscribtion">
+                        <p class="subscribe__text">
+                            SUBSCRIBE TO OUR NEWSLETTER
+                        </p>
+                        <form action="subscribe-require" class="input__block">
+                            <input type="email" class="inp__email" placeholder="Email*" required>
+                            <button class="inp__btn">
+                                <img class="arrow" src="images/SVG's/arrow.svg" alt="arrow">
+                            </button>
+                        </form>
+
+                    </div>
+
+                    <div class="footer__logo">
+                        <h3 class="footer__logo__title">
+                            <a href="index.html" class="footer__logo__title__link">
+                                Luuis
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="social__block">
+                    <div class="footer__nav">
+                        <a href="about-page.html" class="about__footer">About Us</a>
+                        <a href="collection-page.html" class="releases__footer">Releases</a>
+                    </div>
+                    <div class="social__icons">
+                        <div class="twitter__icon">
+                            <a href="https://twitter.com/Moncler" target="_blank"    class="twitter__icon__link">
+                                <img src="images/SVG's/Twitter.svg" alt="twitter-icon">
+                            </a>
+                        </div>
+                        <div class="facebook__icon">
+                            <a href="https://www.facebook.com/moncler/" target="_blank"  class="facebook__icon__link">
+                                <img src="images/SVG's/Facebook.svg" alt="facebook-icon">
+                            </a>
+                        </div>
+                        <div class="instagram__icon">
+                            <a href="https://www.instagram.com/moncler/?ysclid=lu0fruciuq699966077" target="_blank"  class="instagram__icon__link">
+                                <img src="images/SVG's/Instagram.svg" alt="instagram-icon">
+                            </a>
+                        </div>
+                        <div class="youtube__icon">
+                            <a href="https://www.youtube.com/channel/UCDxC3docO5KxmmTG5txBDbA" target="_blank"   class="youtube__icon__link">
+                                <img src="images/SVG's/Youtube.svg" alt="youtube-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="email__modal">
+            <div class="email__modal__content">
+                <span class="close__modal">&times;</span>
+                <h3 class="email__modal__title">
+                    Thank you for your choice!
+                </h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/linear-slider.js"></script>
+    <script src="js/cart-active.js"></script>
+    <script src="js/filtering.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/subscribe-from.js"></script>
+    <script src="js/formRequire.js"></script>
+</body>
+</html>

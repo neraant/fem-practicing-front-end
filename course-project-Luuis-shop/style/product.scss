@@ -1,0 +1,268 @@
+main{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .product__card{
+        img{
+            object-fit: cover;
+            object-position: center 30%;
+        }
+        button{
+            color: #fff;
+            background: none;
+            cursor: pointer;
+        }
+    }
+    // Верхняя часть страницы с общими данными 
+    .general__product__information{
+        display: flex;
+        margin-bottom: 6px;
+        max-height: 95vh;
+    }
+    .product__card__information__inner{
+        position: relative;
+        padding-top: 50px;
+        padding-left: 80px;
+        min-width: 44.4%;
+    }
+    .product__card__image__main{
+        max-width: 55.5%;
+    }
+    .product__card__cost{
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .product__card__sizes{
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    .product__card__dot__size{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        li{
+            max-width: 40px;
+            height: 40px;
+        }
+        button{
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: 10px;
+            &:hover{
+                border: 1px solid #b9b8b8;
+            }
+        }
+    }
+    .add__to__cart{
+        max-width: 220px;
+        button{
+            color: #2E3F62;
+            font-family: "Cormorant", serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            background-color: #fff;
+            padding: 15px 72px;
+            border: none;
+            border-radius: 5px;
+            transition: all .2s ease;
+            &:hover{
+                background-color: #b9b8b8;
+            }
+        }
+    }
+    .madeof{
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+        button{
+            font-family: "Cormorant", serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    // Галерея изображений
+    .product__card__gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        .product__card__gallery__top{
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+            img{
+                max-width: 49.7%;
+                min-height: 804px;
+            }
+        }
+        .product__card__gallery__bottom{
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+            img{
+                max-width: 33%;
+                min-height: 574px;
+            }
+        }
+    }
+    .gallery__slider{
+        display: none;
+    }
+    // Меня для состава и тп
+    .overlay{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        visibility:hidden;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        opacity: 0;
+    }
+    .made__content{
+        transition: all 0.3s ease-in-out;
+        transform: translateX(100%);
+        z-index: 1;
+        width: 360px;
+        position: fixed;
+        top: 80px;
+        right: 0px;
+        min-height: 100vh;
+        background-color: #fff;
+        color: #000;
+        .made__title__content{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid rgb(159, 159, 159);
+            font-size: 1.4rem;
+            font-weight: 400;
+            padding: 20px 0;
+            .madeof__title{
+                font-size: 1.8rem;
+                font-weight: 400;
+            }
+        }
+        .close-made{
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 3.0rem;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                color: #636262;
+            }
+        }
+        .madeof__content__inner{
+            padding: 24px  20px 48px;
+            .madeof__title{
+                font-size: 1.8rem;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            .madeof__text{
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: #444343;
+                margin-top: 4px;
+            }
+        }
+        .madeof__content, .care__content{
+            margin-bottom: 30px;
+        }
+        .made__information{
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .product-cares__img{
+            width: 24px;
+            margin-right: 10px;
+        }
+    }
+    .made__content.made-menu-opened{
+        transform: translateX(0);
+    }
+}
+
+@media(max-width: 960px){
+    main{
+        .product__card__information__inner{
+            padding-top: 20px;
+            padding-left: 40px;
+        }
+        .madeof{
+            left: 40px;
+            bottom: 20px;
+        }
+        .product__card__gallery{
+            .product__card__gallery__top img, .product__card__gallery__bottom img{
+                min-height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    main{
+        .product__card__sizes{
+            margin-bottom: 40px;
+        }
+        .add__to__cart button{
+            font-size: 14px;
+            padding: 15px 40px;
+        }
+    }
+}
+
+@media(max-width: 480px){
+    main{
+        .general__product__information{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+            min-height: auto;
+        }
+        .product__card__image__main {
+            max-width: 100%;
+        }
+        .product__card__title{
+            font-size: 16px;
+        }
+        .product__card__cost{
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .product__card__information__inner {
+            padding-left: 20px;
+        }
+        .main .product__card__size{
+            margin-bottom: 20px;
+        }
+        .madeof {
+            right: 20px;
+            bottom: 15px;
+            left: auto;
+            button{
+                font-size: 2.5vw;
+            }
+        }
+        .add__to__cart button{
+            padding: 15px 60px;
+        }
+        .product__card__gallery{
+            display: none;
+        }
+        .gallery__slider{
+            display: block;
+        }
+    }
+}

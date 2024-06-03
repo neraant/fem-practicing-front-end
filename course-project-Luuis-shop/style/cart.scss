@@ -1,0 +1,232 @@
+.cart__ProductBtn{
+    cursor: pointer;
+    background: none;
+    transition: all 0.2s ease;
+    &:hover{
+        filter: brightness(70%);
+    }
+}
+
+.cartTab{
+    width: 480px;
+    background-color: #344464;
+    color: #fff;
+    position: fixed;
+    inset: 0 -550px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 290px;
+    transition: all .2s ease;
+    box-shadow: -9px 1px 5px 4px rgba(0,0,0,0.49);
+    box-shadow: -9px 1px 22px 8px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -9px 1px 22px 8px rgba(0,0,0,0.4);
+    -moz-box-shadow: -9px 1px 22px 8px rgba(0,0,0,0.4);
+    margin-top: 60px;
+    .listCart{
+        margin-top: 20px;
+        overflow: auto;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+    }
+    .cart__title{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+        padding: 30px;
+        font-size: 4.0rem;
+        font-weight: 600;
+    }
+    .item{
+        display: grid;
+        grid-template-columns: 100px 100px 50px 1fr;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: all 0.2s ease;
+        img{
+            width: 100%;
+        }
+        .product__name, .product__cost, .quantity{
+            font-size: 1.6rem;
+        }
+        .quantity{
+            span{
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #fff;
+                color: #000;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: all .1s ease;
+                &:nth-child(2){
+                    color: #fff;
+                    cursor:auto;
+                    background-color: transparent;
+                }
+                &:hover:nth-child(odd){
+                    filter: brightness(80%);
+                }
+            }
+        }
+        &:hover{
+            background-color: #42557c;
+        }
+    }
+    .order__block{
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #202D47;
+        max-width: 440px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        border-radius: 5px;
+        .form {
+            margin: 30px 30px 10px 30px;
+            background-color: #344464;
+        }
+        .form__email {
+            min-width: 380px;
+            padding: 20px 25px;
+            border-radius: 5px;
+            border: 1px solid #CAD3DB;
+            font-size: 18px;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            &::placeholder{
+                color: #7389B5;
+                font-size: 1.6rem;
+            }
+        }
+        .notice{
+            margin: 0 30px;
+            .notice__copy{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.2rem;
+                max-width: 349px;
+            }
+        }
+        .btn{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            gap: 10px;
+            color: #fff;
+            padding-bottom: 30px;
+            .close, .order{
+                cursor: pointer;
+                font-size: 2.0rem;
+                transition: all .2s ease;
+                min-width: 185px;
+                padding: 16px 0;
+                margin-top: 18px;
+            }
+            .close{
+                color: #fff;
+                background-color: #45577B;
+                border-radius: 5px;
+                &:hover{
+                    filter: brightness(110%);
+                    transform: scale(1.01);
+                }
+            }
+            .order{
+                color: white;
+                background-color: #06122A;
+                border-radius: 5px;
+                &:hover{
+                    filter: brightness(130%);
+                    transform: scale(1.01);
+                }
+            }
+        }
+    }
+    .modal, .reject__modal {
+        display: none; 
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: 20% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 380px;
+        min-height: 150px;
+        color: #000;
+        .modal__text, .modal__reject__text{
+            text-align: center;
+            font-size: 1.8rem;
+            margin-top: 10px;
+        }
+        .modal__reject__text{
+            margin-top: 45px;
+        }
+        .success{
+            position: absolute;
+            border: 1px solid black;
+            font-size: 3.2rem;
+            padding: 6px 15px;
+            border-radius: 50%;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .close__modal {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        color: #aaa;
+        float: right;
+        font-size: 4.2rem;
+        font-weight: bold;
+    }
+    .close__modal:hover,
+    .close__modal:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+body.showCart .cartTab{
+    inset: 0 0 0 auto;
+    z-index: 1;
+}
+
+@media(max-width: 760px) {
+    .cartTab{
+        margin-top: 90px;
+    }
+}
+
+@media(max-width: 480px) {
+    .cartTab{
+        grid-template-rows: 70px 1fr 250px;
+        width: 100%;
+        margin-top: 100px;
+        .item{
+            padding: 20px 5px;
+            grid-template-columns: 65px 1fr 45px 1fr;
+        }
+        .cart__title{
+            font-size: 3.0rem;
+        }
+        .order__block{
+            bottom: 0;
+        }
+    }
+}
