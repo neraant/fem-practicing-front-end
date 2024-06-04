@@ -142,12 +142,12 @@ body.light-theme .advice-title{
 .advice-text{
     font-size: 28px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .line-image{
     margin-top: auto;
     margin-bottom: 19px;
-    margin-top: 10px;
 }
 
 .generate-btn{
