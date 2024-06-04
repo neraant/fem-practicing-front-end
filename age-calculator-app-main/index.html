@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- fonts(poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="null.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+  <!-- Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days -->
+
+  <div class="main">
+    <div class="container">
+
+      <form class="form">
+        <div class="form-wrapper">
+  
+          <div class="input-wrapper">
+            <label for="day" class="day-label label">Day</label>
+            <input id="day" type="text" class="day-input _req" placeholder="DD">
+            <span class="error-message">This field is required</span>
+          </div>
+    
+          <div class="input-wrapper">
+            <label for="month" class="month-label label"> Month</label>
+            <input id="month" type="text" class="month-input _req" placeholder="MM">
+            <span class="error-message">This field is required</span>
+          </div>
+    
+          <div class="input-wrapper">
+            <label for="year" class="year-label label">Year</label>
+            <input id="year" type="text" class="year-input _req" placeholder="YYYY">
+            <span class="error-message">This field is required</span>
+          </div>
+  
+        </div>
+  
+        <div class="button-container">
+          <span class="line"></span>
+          <button class="form-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+          </button>
+        </div>
+      </form>
+  
+      <div class="results">
+        <div class="result-block">
+  
+          <span class="dash year">--</span>
+          <h1 class="result-title">years</h1>
+    
+        </div>
+  
+        <div class="result-block">
+  
+          <span class="dash month">--</span>
+          <h1 class="result-title">months</h1>
+    
+        </div>
+  
+        <div class="result-block">
+  
+          <span class="dash day">--</span>
+          <h1 class="result-title">days</h1>
+    
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
