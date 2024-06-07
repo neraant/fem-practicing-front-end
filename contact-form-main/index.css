@@ -280,6 +280,10 @@ textarea._error{
     }
     .container{
         max-width: 370px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .queries-wrapper{
         flex-direction: column;
