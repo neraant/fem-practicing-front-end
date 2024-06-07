@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>   
+  <link rel="stylesheet" href="null.css">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  
+  <main class="main">
+
+    <div class="ip-address-container">
+
+      <div class="container">
+
+        <form class="form">
+          <h1 class="form-title">IP Address Tracker</h1>
+  
+          <div class="inp-block">
+            <input class="ip-input" type="text" placeholder="Search for any IP address">
+  
+            <button class="form-btn">
+              <img src="images/icon-arrow.svg" alt="btn-arrow">
+            </button>
+          </div>
+        </form>
+  
+        <div class="information-wrapper">
+          <div class="information-block">
+  
+            <div class="information-block-wrapper">
+              <h3 class="information-title">IP Address</h3>
+              <span class="information-text ip-address">192.212.174.101</span>
+            </div>
+  
+          </div>
+          <div class="information-block">
+  
+            <div class="information-block-wrapper">
+              <h3 class="information-title">Location</h3>
+              <span class="information-text location">Brooklyn, NY 10001</span>
+            </div>
+  
+          </div>
+          <div class="information-block">
+  
+            <div class="information-block-wrapper">
+              <h3 class="information-title">Timezone</h3>
+              <span class="information-text utc">UTC -05:00</span>
+            </div>
+  
+          </div>
+          <div class="information-block">
+  
+            <div class="information-block-wrapper">
+              <h3 class="information-title">ISP</h3>
+              <span class="information-text isp">SpaceX Starlink</span>
+            </div>
+  
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="map"></div>
+    
+  </main>
+  
+  <script src="app.js"></script>
+
+</body>
+</html>
