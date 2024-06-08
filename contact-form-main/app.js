@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
         let error = formValidate(form);
 
         if(error === 0){
+            
             successModal.classList.add('sended');
             setTimeout(function() {
                 successModal.classList.remove('sended');
             }, 2000);
+
         }
         else{
             successModal.classList.remove('sended');
